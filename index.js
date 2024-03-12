@@ -1,22 +1,22 @@
 function shout(string) {
     return string.toUpperCase()
-  }
-  function whisper(string) {
+}
+function whisper(string) {
     return string.toLowerCase()
-  } 
-  function logShout(string) {
+}
+function logShout(string) {
     console.log(string.toUpperCase())
-  } 
-  function logWhisper(string) {
+}
+function logWhisper(string) {
     console.log(string.toLowerCase())
-  } 
-  function sayHiToHeadphonedRoommate(string) {
+}
+function sayHiToHeadphonedRoommate(string) {
     if (typeof string === 'string') {
         if (string === string.toLowerCase()) {
             console.log("I can't hear you!");
             return "I can't hear you!";
         }
-        else if (string === string.toUpperCase()){
+        else if (string === string.toUpperCase()) {
             console.log('YES INDEED!');
             return 'YES INDEED!';
         }
@@ -25,5 +25,5 @@ function shout(string) {
             return 'I would love to!';
         }
     }
-    }
-    
+}
+
